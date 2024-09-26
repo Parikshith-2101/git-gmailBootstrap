@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    border:1px solid black;
+}
+.mail{
+    border:1px solid blue;
+}
+.h-85vh{
+    height:85vh;
+}
+.nav-link>.LeftText{
+    font-size: 12px;
+    color: #1f1f1f;
+    margin-bottom: 0;
+}
+.LeftSideBar{
+    background: #eaf1fb;
+}
+.MenuIcon>.nav-link{
+    padding: 15px;
+    border-radius: 30px;
+}
+.MenuIcon{
+    padding-inline: 10px;
+}
+.LeftImg{
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 30px;
+}
+.greenDot{
+    font-size:40px;
+    color:#1e8e3e;
+    margin-top:-5px;
+}
+li.nav-item.mx-4.pe-5{
+    width:168px;
+}
+.Headnavbar{
+    background: #f5f5f5;
+}
+.SearchDiv,input.searchBar{
+    background: #eaf1fb;
+}
+input.searchBar:focus{
+    outline:none;
+    background: #eaf1fb;
+}
+
+
+.main_leftbar{
+    background:#f5f5f5;
+    width:215px;
+}
+.compose {
+    width:125px;
+}
+.compose_btn {
+    background:#c2e7ff;
+}
+.compose_name {
+    color:#001d35;
+}
+.inbox_title {
+    background:#d3e3fd;
+}
+.main_left_element {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 30px;
+    width: 200px;
+}
+.main_left_icon {
+    width: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+.inbox {
+    color: #001d35;
+    font-weight: bold;
+}
+.main_left_name {
+    margin:0;
+    font-size: 14px;
+    color: rgb(32, 33, 36);
+}
+.mail_icon{
+    color: #5f6368;
+}
+.hov_d{
+    display:none;
+}
+.MailTab:hover .hov_d{
+    display:flex;
+}
+.hov_icon{
+    width:20px;
+}
+.mail_msg{
+    color:#5f6368;
+}
+
+.IconContainer{
+    width:fit-content;
+}
+.MailTab {
+    background: #f2f6fc;
+    border-bottom: 1px solid #e4e4e4;
+}
+.mail_msg_cont {
+    width: 78%;
+    overflow: hidden;
+}
+.mail_msg_cont>p {
+    margin-right: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 92%;
+}
+.TimeTab {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    margin-left: auto;
+}
+.time {
+    white-space: nowrap;
+    margin-left: auto;
+}

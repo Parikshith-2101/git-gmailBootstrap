@@ -4,11 +4,8 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    border:1px solid black;
-}
-.mail{
-    border:1px solid blue;
+body {
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
 }
 .h-85vh{
     height:85vh;
@@ -20,6 +17,7 @@ body{
 }
 .LeftSideBar{
     background: #eaf1fb;
+    width:94px;
 }
 .MenuIcon>.nav-link{
     padding: 15px;
@@ -63,6 +61,10 @@ input.searchBar:focus{
 .compose_btn {
     background:#c2e7ff;
 }
+.compose_btn:hover {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .3), 0 4px 8px 3px rgba(60, 64, 67, .15);
+    background-color: #c2e7ff;
+}
 .compose_name {
     color:#001d35;
 }
@@ -99,7 +101,19 @@ input.searchBar:focus{
 }
 .MailTab:hover .hov_d{
     display:flex;
+    justify-content:space-between;
+    width:100%;
 }
+.MailTab:hover{
+    box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
+}
+.MailTab:hover .TimeTab{
+    width:100px;
+}
+.MailTab:hover .time{
+    display:none;
+}
+
 .hov_icon{
     width:20px;
 }
